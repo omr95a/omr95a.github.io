@@ -43,6 +43,7 @@ h1, h2, h3, h4, h5, h6 {
 # Header  #
 -----------*/
 #header {
+  text-align: center;
   transition: ease-in-out 0s;
   position: relative;
   height: 100vh;
@@ -90,7 +91,7 @@ h1, h2, h3, h4, h5, h6 {
 
 #header .social-links {
   margin-top: 40px;
-  display: flex;
+  display: inline-flex;
 }
 
 #header .social-links a {
